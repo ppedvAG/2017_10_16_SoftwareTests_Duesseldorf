@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DecoratorAndDependencyInjection.Data.Repository" BaseTypeListCollapsed="true">
+    <Position X="1.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Data\Repository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DecoratorAndDependencyInjection.Logging.LoggingRepository">
+    <Position X="8.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAABAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Logging\LoggingRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorAndDependencyInjection.Core.RepositoryDecorator">
+    <Position X="8.5" Y="3.75" Width="2" />
+    <AssociationLine Name="BaseRepository" Type="DecoratorAndDependencyInjection.Core.IRepository" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.5" Y="4.562" />
+        <Point X="10.875" Y="4.562" />
+        <Point X="10.875" Y="1.842" />
+        <Point X="6.5" Y="1.842" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAA=</HashCode>
+      <FileName>Core\RepositoryDecorator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BaseRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DecoratorAndDependencyInjection.Core.IRepository">
+    <Position X="4.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Core\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
