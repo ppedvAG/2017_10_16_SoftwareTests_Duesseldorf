@@ -74,7 +74,7 @@ namespace Calculator.TestsXUnit
             public IEnumerable<object[]> Data => new[]
             {
                 new object[] { 1, 2, 3 },
-                new object[] {0, 0, 0}
+                new object[] { 0, 0, 0}
             };
 
             public IEnumerator<object[]> GetEnumerator() => Data.GetEnumerator();

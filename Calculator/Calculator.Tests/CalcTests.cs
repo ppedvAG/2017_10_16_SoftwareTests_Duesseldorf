@@ -22,10 +22,13 @@ namespace Calculator.Tests
         [TestMethod]
         public void Add_5_and_6_should_return_11()
         {
+            // Arrange
             var calc = new Calc();
 
+            // Act
             var result = calc.Add(5, 6);
 
+            // Assert
             Assert.AreEqual(11, result);
         }
         [TestMethod]
