@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\DateTimeService.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Core\IDateTimeService.cs" />
     <Compile Include="Core\IRepository.cs" />
     <Compile Include="Core\RepositoryDecorator.cs" />

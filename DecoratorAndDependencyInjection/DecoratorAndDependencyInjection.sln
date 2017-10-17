@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorAndDependencyInjection", "DecoratorAndDependencyInjection\DecoratorAndDependencyInjection.csproj", "{766C2519-82B4-4C3E-AF57-6163B8916753}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorAndDependencyInjection.Tests", "DecoratorAndDependencyInjection.Tests\DecoratorAndDependencyInjection.Tests.csproj", "{D0D79E66-C645-4691-AA47-A1D6D39EE5E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{766C2519-82B4-4C3E-AF57-6163B8916753}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{766C2519-82B4-4C3E-AF57-6163B8916753}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{766C2519-82B4-4C3E-AF57-6163B8916753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D79E66-C645-4691-AA47-A1D6D39EE5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D79E66-C645-4691-AA47-A1D6D39EE5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D79E66-C645-4691-AA47-A1D6D39EE5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D79E66-C645-4691-AA47-A1D6D39EE5E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

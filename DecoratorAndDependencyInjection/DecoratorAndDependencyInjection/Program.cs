@@ -1,10 +1,10 @@
 ﻿using DecoratorAndDependencyInjection.Common;
+using DecoratorAndDependencyInjection.Controllers;
 using DecoratorAndDependencyInjection.Core;
 using DecoratorAndDependencyInjection.Data;
 using DecoratorAndDependencyInjection.Logging;
 using StructureMap;
 using System;
-using System.Collections.Generic;
 
 namespace DecoratorAndDependencyInjection
 {
@@ -45,19 +45,6 @@ namespace DecoratorAndDependencyInjection
                 Console.WriteLine(c);
 
             Console.ReadKey();
-        }
-    }
-
-    internal class CustomerController
-    {
-        private readonly IRepository repository;
-
-        public CustomerController(IRepository repository) => this.repository = repository;
-
-        // GET api/customers
-        public IEnumerable<string> GetAll()
-        {
-            return repository.GetAllCustomers();
         }
     }
 }

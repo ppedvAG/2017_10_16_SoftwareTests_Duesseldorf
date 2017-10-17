@@ -2,7 +2,7 @@
 
 namespace DecoratorAndDependencyInjection.Core
 {
-    internal interface IRepository
+    public interface IRepository
     {
         IEnumerable<string> GetAllCustomers();
     }
